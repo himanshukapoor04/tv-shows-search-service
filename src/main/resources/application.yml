@@ -1,0 +1,12 @@
+server:
+  port: 6200
+
+spring:
+  application:
+    name: tv-show-search-service
+
+entertainment:
+  tv-show-search-service:
+    tv-maze-service:
+      url: "http://api.tvmaze.com"
+      path: /search/shows?q=%s
