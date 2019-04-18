@@ -1,12 +1,10 @@
-package se.entertainment.tvshows.search.model;
+package com.entertainment.tvshows.search.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 /**
  * Model object to fetch values from the TV Maze API

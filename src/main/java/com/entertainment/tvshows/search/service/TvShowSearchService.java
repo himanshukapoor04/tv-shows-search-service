@@ -1,7 +1,7 @@
-package se.entertainment.tvshows.search.service;
+package com.entertainment.tvshows.search.service;
 
 import reactor.core.publisher.Flux;
-import se.entertainment.tvshows.search.api.v1.TvShowDto;
+import com.entertainment.tvshows.search.api.v1.TvShowDto;
 
 /**
  * Service to fetch tv shows.

@@ -1,13 +1,13 @@
-package se.entertainment.tvshows.search.service;
+package com.entertainment.tvshows.search.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.val;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import se.entertainment.tvshows.search.api.v1.TvShowDto;
-import se.entertainment.tvshows.search.external.TvMazeClient;
-import se.entertainment.tvshows.search.model.TvShow;
+import com.entertainment.tvshows.search.api.v1.TvShowDto;
+import com.entertainment.tvshows.search.external.TvMazeClient;
+import com.entertainment.tvshows.search.model.TvShow;
 
 import java.util.List;
 import java.util.stream.Collectors;

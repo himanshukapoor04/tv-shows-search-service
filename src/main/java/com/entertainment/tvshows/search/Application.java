@@ -1,4 +1,4 @@
-package se.entertainment.tvshows.search;
+package com.entertainment.tvshows.search;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

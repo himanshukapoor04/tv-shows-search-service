@@ -1,4 +1,4 @@
-package se.entertainment.tvshows.search.external;
+package com.entertainment.tvshows.search.external;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -6,8 +6,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
-import se.entertainment.tvshows.search.exception.TvShowError;
-import se.entertainment.tvshows.search.model.TvShow;
+import com.entertainment.tvshows.search.exception.TvShowError;
+import com.entertainment.tvshows.search.model.TvShow;
 
 import java.util.logging.Level;
 

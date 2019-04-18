@@ -1,4 +1,4 @@
-package se.entertainment.tvshows.search.api.v1;
+package com.entertainment.tvshows.search.api.v1;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;

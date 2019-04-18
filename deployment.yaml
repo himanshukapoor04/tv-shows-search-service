@@ -1,0 +1,34 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: tv-search-show-service
+spec:
+  selector:
+    app: tv-search-show-service
+  ports:
+  - protocol: TCP
+    port: 6200
+  type: ClusterIP
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tv-search-show-service
+spec:
+  selector:
+    matchLabels:
+      app: tv-search-show-service
+      tier: backend
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: tv-search-show-service
+        tier: backend
+    spec:
+      containers:
+        - name: tv-search-show-service
+          image: tv-show-search:1.0
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 6200

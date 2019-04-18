@@ -1,4 +1,4 @@
-package se.entertainment.tvshows.search.external;
+package com.entertainment.tvshows.search.external;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

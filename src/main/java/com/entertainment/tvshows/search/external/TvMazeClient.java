@@ -1,7 +1,7 @@
-package se.entertainment.tvshows.search.external;
+package com.entertainment.tvshows.search.external;
 
 import reactor.core.publisher.Flux;
-import se.entertainment.tvshows.search.model.TvShow;
+import com.entertainment.tvshows.search.model.TvShow;
 
 /**
  * Client to call TV Maze API
